@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">"
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(0, 0, 33);
+            color:white;
+            font-family: 'Poppins',sans-serif;
+        }
+        nav{
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+            height:80px;
+            background-color: rgb(18,18,62);
+        }
+        nav ul{
+            display:flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style:none;
+            margin:0 23px;
+        }
+        nav ul li a{
+            text-decoration:none;
+            color: white;
+        }
+        nav ul li a:hover{
+            text-decoration:wavy;
+            color:rgb(125, 125, 235);
+            font-size: 1.02rem;
+        }
+        main hr{
+            border:0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin:10px 10px;
+        }
+        .left{
+            font-size: 1.75 rem;
+        }
+        .firstSection{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin:120px 0;
+            height: 80vh;
+
+        }  
+        .firstSection >div{
+            width:30%;
+        }
+        .leftSection{
+            margin: 180px 0;
+            font-size: 2rem;
+            align-items: center;
+        }
+        .rightSection img{
+            width:80%;   
+        }
+        .purple{
+            color: rgb(212, 47, 177);
+
+        }
+        .text-gray{
+            color: gray;
+            
+        } 
+        #element{
+            color: rgb(206, 18, 223)
+        }
+        .secondSection{
+            max-width: 80vw ;
+            margin: auto;
+            height: 80vh;
+              
+        }       
+        .secondSection h1 {
+            font-size:1.9rem;
+        }
+        .secondSection .box{
+            background: white;
+            width: 100vw;
+            height:2px;
+            margin: 60px 0; 
+            display:flex;
+           
+        }
+        .secondSection .vertical{
+            height: 73px;
+            width:1px;
+            background-color: white;
+            margin:0px 100px;
+
+        }
+        .image-top{
+            width: 30px;
+              position: relative;
+            top: -32px;
+            left: -9px;
+        }
+        .vertical-title{
+            position:relative;
+            top: 75px;
+            width:150px;
+            margin: 3px;
+        }
+        .vertical-desc{
+            position: relative;
+            top:86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+             
+             
+        }
+        footer{
+           background: color #0e0e1a; 
+           padding: -150px;
+           
+        }
+        .footer{
+             display:flex;
+             padding:   23px 122px;
+             justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style: none;
+            
+        }
+        .footer > div{
+            width: 223px;
+        }
+         footer .footer-rights{
+            text-align:center;
+            color: gray;
+            padding: 12px 0;
+
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Shivani's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+        <main>
+            <section class="firstSection">
+                <div class="leftSection">
+                    Hi, My name is <span class="purple">Shivani</span> 
+                    <div>and I am a passionate </div>
+                    
+                    <span id="element"></span>
+                </div>
+                <div class="rightSection">
+                    <img src="dg.png"  alt="">
+                </div>
+            </section>
+<hr>
+            <section class="secondSection">
+                <span class="text-gray">What I have done so far</span>
+                <h1>Work Experience</h1>
+                <div class="box">  
+                    <div class="vertical">
+                        <img class="image-top" src="PngItem_5191896.png" alt="">
+                        <div class="vertical-title">
+                            Html
+                        </div>
+                        <div class="vertical-desc">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad sed obcaecati ea eaque quo velit officiis aut. Quaerat debitis fuga quo magnam minus atque, doloremque quidem sed? Id, reprehenderit ipsa.
+                        </div>
+                        
+                    </div>
+                    <div class="vertical">
+                        <img class="image-top" src="PngItem_5191896.png" alt="">
+                        <div class="vertical-title">
+                            CSS
+                        </div>
+                        <div class="vertical-desc">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad sed obcaecati ea eaque quo velit officiis aut. Quaerat debitis fuga quo magnam minus atque, doloremque quidem sed? Id, reprehenderit ipsa.
+                        </div>
+                        
+                    </div>
+                    <div class="vertical">
+                        <img class="image-top" src="pngwing.com.png" alt="">
+                        <div class="vertical-title">
+                            javascript
+                        </div>
+                        <div class="vertical-desc">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad sed obcaecati ea eaque quo velit officiis aut. Quaerat debitis fuga quo magnam minus atque, doloremque quidem sed? Id, reprehenderit ipsa.
+                        </div>
+                        
+                    </div>
+                    <div class="vertical">
+                        <img class="image-top" src="node-js.svg" alt="">
+                        <div class="vertical-title">
+                            Node.js  Developer
+                        </div>
+                        <div class="vertical-desc">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad sed obcaecati ea eaque quo velit officiis aut. Quaerat debitis fuga quo magnam minus atque, doloremque quidem sed? Id, reprehenderit ipsa.
+                        </div>
+                        
+                    </div>
+                    <div class="vertical">
+                        <img class="image-top" src="pngwing.com.png" alt="">
+                        <div class="vertical-title">
+                            React
+                        </div>
+                        <div class="vertical-desc">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad sed obcaecati ea eaque quo velit officiis aut. Quaerat debitis fuga quo magnam minus atque, doloremque quidem sed? Id, reprehenderit ipsa.
+                        </div>
+                        
+                    </div>
+                    <div class="vertical">
+                        <img class="image-top" src="python-svgrepo-com.svg" alt="">
+                        <div class="vertical-title">
+                            Python Programmer
+                        </div>
+                        <div class="vertical-desc">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad sed obcaecati ea eaque quo velit officiis aut. Quaerat debitis fuga quo magnam minus atque, doloremque quidem sed? Id, reprehenderit ipsa.
+                        </div>
+                        
+                    </div>
+                </div>   
+ 
+            </section>
+        </main>
+        <footer>
+            <div class="footer">
+                <div class="footer-first"></div>
+                     <h3>Shivani's Developer Portfolio</h3>
+                <div class="footer-second">
+                   <ul>
+                       <li>Home</li>
+                       <li>About</li>
+                       <li>Services</li>
+                       <li>Contact</li>
+                  </ul>
+                </div>
+                <div class="footer-third">
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Services</li>
+                        <li>Contact</li>
+                   </ul>
+                </div>
+                <div class="footer-fourth">
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Services</li>
+                        <li>Contact</li>
+                   </ul>
+                </div>
+            </div>
+            <div class="footer-rights">
+             Copyright  &#169;shivaniportfolio.com  | All rights reserved
+            </div>
+        </footer>
+        
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed('#element', {
+              strings: ['WEB DEVELOPER', 'WEB DESIGNER','ENTHUSIAST CODER...'],
+              typeSpeed: 50,
+            });
+          </script>
+    </header>
+    
+</body>
+</html>
